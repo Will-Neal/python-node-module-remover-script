@@ -15,6 +15,11 @@ This script is super simple to use. Use `python nm_remove.py` to run the script.
 
 ## License
 
+![License Badge](https://img.shields.io/badge/license-MIT-orange?style=plastic=appveyor?raw=true)
+  <br>
+  
+[Click here for more information regarding the above license](https://opensource.org/licenses/MIT)
+
 MIT but who cares? Currently it's the os package firing off some basic commands you can find on stack overflow. Steal it, use it, modify it, I don't feel like I own it. 
 
 ## Future Development
