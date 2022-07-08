@@ -7,10 +7,17 @@ Packages are fantastic but they take up tons of space. Further, they are incredi
 
 ## Installation
 
-Clone the repo and drag the nm_remove.py file to the root of the folder containing all of your projects with node_modules. Use `python nm_remove.py` to run the script. Simple as that. 
-
-Honestly. the script is so short, you could easily just start a python file with the same or your desired name and copy and paste it from the nm_remove.py file to your file. Use the same command and say goodbye to those node_modules.
+Clone the repo and drag the nm_remove.py file to the root of the folder containing all of your projects with node_modules. Honestly. the script is so short, you could easily just start a python file with the same or your desired name and copy and paste it from the nm_remove.py file to your file. 
 
 ## Usage
 
-This script is super simple to use. 
+This script is super simple to use. Use `python nm_remove.py` to run the script. Simple as that. Say goodbye to all of those node_modules.
+
+## License
+
+MIT but who cares? Currently it's the os package firing off some basic commands you can find on stack overflow. Steal it, use it, modify it, I don't feel like I own it. 
+
+## Future Development
+
+I would like to implement some user interaction to allow you to point it at a specific directory or file path and to give the user basic options like viewing the paths of the node_modules folders before deleting. Nothing crazy. 
+
