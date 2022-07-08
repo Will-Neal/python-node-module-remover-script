@@ -20,7 +20,13 @@ This script is super simple to use. Use `python nm_remove.py` to run the script.
   
 [Click here for more information regarding the above license](https://opensource.org/licenses/MIT)
 
-MIT but who cares? Currently it's the os package firing off some basic commands you can find on stack overflow. Steal it, use it, modify it, I don't feel like I own it. 
+MIT but who cares? Currently it's the os package firing off some basic commands you can find on stack overflow. Steal it, use it, modify it, I don't feel like there's enoug here to own it. 
+
+## How to Contribute
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+[Find the covenant here](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.txt)
 
 ## Future Development
 
