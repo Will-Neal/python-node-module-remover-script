@@ -7,12 +7,14 @@ def init():
 
         if lockThePackage == 1:
             print('Alright see ya later')
+            return
 
         if lockThePackage == 2:
             print('Yipee ki-yay!')
             os.system("find . -name 'package-lock.json' -type d -prune")
-            os.system("find . -name 'package-lock.json' -type d -prune -exec rm -rf '{}' +")
+            os.system("find . -name 'package-lock.json' -exec rm -rf '{}' +")
             print("EZPZ package-lock's are no more")
+            return
 
 
     sendIt = int(input('See node_modules first? \n 1 - Yes, please!  \n 2 - No, send it \n 3 - What have I done?? Get me out of here!! \n'))
@@ -20,6 +22,7 @@ def init():
     if sendIt == 1:
         print("You didn't send it :(")
         os.system("find . -name 'node_modules' -type d -prune")
+        init()
 
     elif sendIt == 2:
         print("Are you silly? I'm still gonna send it")
@@ -29,6 +32,7 @@ def init():
         os.system("find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +")
 
         print("no more node_modules!!")
+        packageLocks()
 
     elif sendIt ==3:
         return
