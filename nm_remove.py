@@ -13,6 +13,9 @@ def init():
             print('Yipee ki-yay!')
             os.system("find . -name 'package-lock.json' -type d -prune")
             os.system("find . -name 'package-lock.json' -exec rm -rf '{}' +")
+            print('Hacking... 5%')
+            print('Hacking.... 50%')
+            print('Hacking..... 100%')
             print("EZPZ package-lock's are no more")
             return
 
