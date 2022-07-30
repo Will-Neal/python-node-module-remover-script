@@ -3,7 +3,7 @@ from re import S
 
 def init(): 
     def packageLocks():
-        lockThePackage = int(input('\n Do you want to get rid of the package-lock.jsons too? \n \n 1 - No, I thought this was just for node_modules \n 2 - Yes, delete the pesky package-locks \n \n'))
+        lockThePackage = int(input('\nDo you want to get rid of the package-lock.jsons too? \n \n1 - No, I thought this was just for node_modules \n2 - Yes, delete the pesky package-locks \n \n'))
 
         if lockThePackage == 1:
             print('Alright see ya later')
@@ -28,7 +28,7 @@ def init():
         init()
 
     elif sendIt == 2:
-        print("\n Are you silly? I'm still gonna send it \n ")
+        print("\nAre you silly? I'm still gonna send it \n ")
         #os.system("find . -name 'node_modules' -type d -prune")
         
         # '{}' is a placeholder which find replaces with the file path it found, while + tells find to append all the file paths to a single command, rather than running rm for each
