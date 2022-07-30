@@ -23,7 +23,7 @@ def init():
     sendIt = int(input('See node_modules first? \n 1 - Yes, please!  \n 2 - No, send it \n 3 - What have I done?? Get me out of here!! \n'))
 
     if sendIt == 1:
-        print("You didn't send it :(")
+        print("You didn't send it :( \nI found the following node_modules folders: \n")
         os.system("find . -name 'node_modules' -type d -prune")
         init()
 
