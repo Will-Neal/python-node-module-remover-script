@@ -1,20 +1,24 @@
 import tkinter as tk
+import os
 
 HEIGHT = 450
 WIDTH = 600
 
 def seeNM():
     print('See Node Module Function')
+    os.system("find . -name 'node_modules' -type d -prune")
 
 def deleteNM():
     print('Delete Node Module function')
+    os.system("find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +")
 
 def seePJ():
     print('See Package.Json file')
+    os.system("find . -name 'package-lock.json' -type d -prune")
 
 def deletePJ():
     print('Delete Package.json file')
-
+    os.system("find . -name 'package-lock.json' -exec rm -rf '{}' +")
 
 
 root = tk.Tk()
